@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'majr-react/dist/index.css'
 
 function App() {
   return (
