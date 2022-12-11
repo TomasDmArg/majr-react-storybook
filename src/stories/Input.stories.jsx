@@ -19,10 +19,10 @@ export default {
         type: 'text'
       }
     },
-    onChange: {
+    setText: {
       action: 'changed'
     },
-    value: {
+    text: {
       control: {
         type: 'text'
       }
@@ -36,47 +36,47 @@ export const Light = Template.bind({})
 Light.args = {
   variant: 'light',
   placeholder: 'Light Input',
-  onChange: () => { },
-  value: ''
+  setText: () => { },
+  text: ''
 }
 export const Dark = Template.bind({})
 Dark.args = {
   variant: 'dark',
   placeholder: 'Dark Input',
-  onChange: () => { },
-  value: ''
+  setText: () => { },
+  text: ''
 }
 
 export const Password = Template.bind({})
 Password.args = {
   variant: 'password',
   placeholder: 'Password',
-  onChange: () => { },
-  value: ''
+  setText: () => { },
+  text: ''
 }
 
 export const PasswordDark = Template.bind({})
 PasswordDark.args = {
   variant: 'passwordDark',
   placeholder: 'Password',
-  onChange: () => { },
-  value: ''
+  setText: () => { },
+  text: ''
 }
 
 export const Search = Template.bind({})
 Search.args = {
   variant: 'search',
   placeholder: 'Search',
-  onChange: () => { },
-  value: ''
+  setText: () => { },
+  text: ''
 }
 
 export const SearchDark = Template.bind({})
 SearchDark.args = {
   variant: 'searchDark',
   placeholder: 'Search',
-  onChange: () => { },
-  value: ''
+  setText: () => { },
+  text: ''
 }
 
 
